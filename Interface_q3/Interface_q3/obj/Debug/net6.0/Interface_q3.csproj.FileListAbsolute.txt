@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\bin\Debug\net6.0\Interface_q3.exe
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\bin\Debug\net6.0\Interface_q3.deps.json
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\bin\Debug\net6.0\Interface_q3.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\bin\Debug\net6.0\Interface_q3.dll
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\bin\Debug\net6.0\Interface_q3.pdb
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.dll
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\refint\Interface_q3.dll
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.pdb
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\Interface_q3.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\Interface_q3\Interface_q3\obj\Debug\net6.0\ref\Interface_q3.dll
