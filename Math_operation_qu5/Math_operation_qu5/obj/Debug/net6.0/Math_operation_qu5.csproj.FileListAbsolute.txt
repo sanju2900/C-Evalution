@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\bin\Debug\net6.0\Math_operation_qu5.exe
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\bin\Debug\net6.0\Math_operation_qu5.deps.json
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\bin\Debug\net6.0\Math_operation_qu5.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\bin\Debug\net6.0\Math_operation_qu5.dll
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\bin\Debug\net6.0\Math_operation_qu5.pdb
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.dll
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\refint\Math_operation_qu5.dll
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.pdb
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\Math_operation_qu5.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\Math_operation_qu5\Math_operation_qu5\obj\Debug\net6.0\ref\Math_operation_qu5.dll
