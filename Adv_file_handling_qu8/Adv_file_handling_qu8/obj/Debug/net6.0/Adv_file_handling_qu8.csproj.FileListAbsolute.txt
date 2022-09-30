@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\bin\Debug\net6.0\Adv_file_handling_qu8.exe
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\bin\Debug\net6.0\Adv_file_handling_qu8.deps.json
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\bin\Debug\net6.0\Adv_file_handling_qu8.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\bin\Debug\net6.0\Adv_file_handling_qu8.dll
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\bin\Debug\net6.0\Adv_file_handling_qu8.pdb
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.dll
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\refint\Adv_file_handling_qu8.dll
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.pdb
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\Adv_file_handling_qu8.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\Adv_file_handling_qu8\Adv_file_handling_qu8\obj\Debug\net6.0\ref\Adv_file_handling_qu8.dll
