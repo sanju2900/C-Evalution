@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\bin\Debug\net6.0\File_Handling_qu6.exe
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\bin\Debug\net6.0\File_Handling_qu6.deps.json
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\bin\Debug\net6.0\File_Handling_qu6.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\bin\Debug\net6.0\File_Handling_qu6.dll
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\bin\Debug\net6.0\File_Handling_qu6.pdb
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.dll
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\refint\File_Handling_qu6.dll
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.pdb
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\File_Handling_qu6.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\File_Handling_qu6\File_Handling_qu6\obj\Debug\net6.0\ref\File_Handling_qu6.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "File_Handling_qu6/1.0.0": {
+        "runtime": {
+          "File_Handling_qu6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "File_Handling_qu6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
