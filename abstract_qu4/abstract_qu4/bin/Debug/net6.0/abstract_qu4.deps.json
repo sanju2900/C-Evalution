@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "abstract_qu4/1.0.0": {
+        "runtime": {
+          "abstract_qu4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "abstract_qu4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
