@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\bin\Debug\net6.0\Array_q1.exe
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\bin\Debug\net6.0\Array_q1.deps.json
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\bin\Debug\net6.0\Array_q1.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\bin\Debug\net6.0\Array_q1.dll
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\bin\Debug\net6.0\Array_q1.pdb
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.dll
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\refint\Array_q1.dll
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.pdb
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\Array_q1.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\Array_q1\Array_q1\obj\Debug\net6.0\ref\Array_q1.dll
