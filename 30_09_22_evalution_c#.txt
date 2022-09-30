@@ -1,0 +1,565 @@
+
+//Write a C# program to find the maximum and minum value in an array
+
+namespace Array_q1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter number of value you want in array : ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] array =new int[n];
+            Console.WriteLine("Enter array elements : " );
+            for (int i = 0; i < n; i++)
+            {
+               array[i]= Convert.ToInt32(Console.ReadLine());
+            }
+            int max = array[0];
+            int min = array[0];
+            for (int i = 0; i <= array.Length - 1; i++)
+            {
+                if (array[i] > max)
+                {
+                    max = array[i];
+                }
+                if (array[i] < min)
+                {
+                    min = array[i];
+                }
+            }
+            Console.WriteLine("Maximum element of array is: "+max);
+            Console.WriteLine("Minimum element of array is: " + min);
+        }
+    }
+}
+
+2) Write a C# program to create a Phonebook. 
+The Phonebook should take inputs from the user and store their numbers. 
+Also ask for the user age and store their numbers as Students in a sub class. If the user gives a profession, store the numbers in the Service subclass. 
+Display the numbers as a collection. 
+Input: Rekha, 45, Doctor: Hema, 17 : Dheeraj, 34, Tennis player: Gaurav, 12: Bhavna, 33: Umang 24: Suresh, 66: Soni, 14, Siddhant, 28, Professor. 
+Output: Students:
+Hema, 17, Ph:No
+Gaurav, 12, Ph:No
+Soni, 14, Ph.No
+Services and Professionals:
+Rekha, 45, Doctor, Ph.No
+Dheeraj, 34, Tennis player, Ph.No
+Siddhant, 28, Professor, Ph.No
+Citizens:
+Bhavna, 33, Ph.No
+Umang, 24, Ph.No
+Suresh, 66, Ph.No\
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+
+namespace Assesment_2
+{
+    class phonebook
+    {
+        public long phoneNo;
+        public string name;
+        public int age;
+        public string Profession;
+
+
+
+       public phonebook(long phoneNo,string name,int age,string Profession)
+        {
+            this.phoneNo = phoneNo;
+            this.name = name;
+            this.age = age;
+            this.Profession = Profession;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<phonebook> phoneList = new List<phonebook>();
+            for(int i=1; i<10; i++)
+            {
+                Console.WriteLine(" \t\t Enter PhoneList Number "+i);
+                Console.WriteLine("-----------------------------------------------------------");
+            Console.WriteLine("Enter Your Phone Number :");
+            int phn = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Your Name :");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter Your Age :");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Your Profession :");
+            string profession = Console.ReadLine();
+            phoneList.Add(new phonebook(phn, name, age, profession));
+
+
+
+               Console.WriteLine();
+                Console.WriteLine();
+            }
+            
+            Console.WriteLine("\t\t PhoneList ");
+            foreach (var i in phoneList)
+            {
+                Console.WriteLine("Name : "+i.name + ", Age : " + i.age + ", Profession : " + i.Profession + ", Phone No. : "+ i.phoneNo);
+            }
+
+
+
+           Console.ReadKey();
+        }
+    }
+}
+
+
+
+3)
+/*
+ 
+ Write a C# program that implements an IVehicle interface with two methods, one for Drive of 
+type void and another for Refuel of type bool. 
+The Refuel method takes an input parameter of type integer with the amount of petrol/diesel to refuel. 
+Then create a Car class with a builder that receives a parameter with the car's starting
+fuel(petrol/diesel) amount and implements the Drive and Refuel methods of the car.
+
+The Drive method will print on the screen that the car is Driving, if the fuel(petrol/diesel) is greater than 0. 
+The Refuel method will increase the fuel(petrol/diesel) of the car and return true.
+
+To carry out the tests, create an object of type Car with 0 of fuel(petrol/diesel) in the Main program 
+and ask the user for an amount of fuel(petrol/diesel) to refuel, finally execute the Drive method of the car.
+ 
+ */
+
+
+using System;
+
+public class FirstInterface
+{
+   
+    public interface IVehicle
+    {
+        void Drive();
+        bool Refuel(int amount);
+    }
+
+    public class Car : IVehicle
+    {
+        public int Fuel { get; set; }
+
+        public Car(int fuel)
+        {
+            Fuel = fuel;
+        }
+
+        public void Drive()
+        {
+            if (Fuel > 0)
+            {
+                Console.WriteLine("Driving Started : ");
+            }
+            else
+            {
+                Console.WriteLine("There is no fuel in car please filled it then try :");
+            }
+        }
+
+        public bool Refuel(int amount)
+        {
+            Fuel += amount;
+            return true;
+        }
+    }
+    public static void Main(string[] args)
+    {
+        Car car = new Car(0);
+        Console.Write("Enter the Petrol : ");
+        int fuel = int.Parse(Console.ReadLine());
+        if (car.Refuel(fuel))
+        {
+            car.Drive();
+        }
+    }
+
+}
+
+4)
+/*
+ Write a C# program that implements an abstract class Bird that has a Name property of type text
+and three methods SetName (string name), GetName and Fly. 
+The Fly method will be an abstract method of type void.
+You will also need to create a Crow/Parrot class that implements the above Bird class and the Fly method should
+say that the crow/parrot is flying. 
+To test the program ask the user for a bird name and create a new Crow/Parrot type object from the Main program, 
+give the Crow/Parrot object a name, and then execute the GetName and Fly methods.
+ 
+ */
+
+
+
+namespace abstract_qu4
+{
+
+    public class AbstractClass
+    {
+       
+
+        public class Crow : Bird
+        {
+            public override void Fly()
+            {
+                Console.WriteLine("crow/parrot is flying : ");
+            }
+        }
+
+        public abstract class Bird
+        {
+            private string Name;
+
+            public void SetName(string name)
+            {
+                Name = name;
+            }
+
+            public string GetName()
+            {
+                return Name;
+            }
+
+           
+       public abstract void Fly();
+        }
+        public static void Main(string[] args)
+        {
+            Crow parrot = new Crow();
+            Console.Write("Give the name of bird: ");
+            parrot.SetName(Console.ReadLine());
+            Console.WriteLine(parrot.GetName());
+            parrot.Fly();
+        }
+    }
+
+}
+
+5)/*
+ Write a C# program to calculate the multiplication table and the factorial of the given number.
+Get the number as an input from the user. 
+ 
+ */
+
+
+namespace Math_operation_qu5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double factorial = 1.0;
+            Console.WriteLine("Enter the number for table and factorial : ");
+            int n= Convert.ToInt32(Console.ReadLine()); 
+            Console.WriteLine("Table of "+ n +" is : ");
+            for(int i=0;i<10;i++)
+            {
+                Console.WriteLine("n x "+i+ " = "+ n*i);
+            }
+            Console.WriteLine("Factorial of " + n + " is : ");
+            for (int i = 1; i <= n; ++i)
+            {
+                factorial *= i;
+            }
+            Console.WriteLine("Factorial of " + n + " = " + factorial);
+        }
+    }
+}
+
+6)/*
+ Write a C# program to copy the contents of one file to another file 
+and encrypt the new file. Have any rule to differentiate the contents along with the encryption. 
+ 
+ */
+
+namespace File_Handling_qu6
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            string file;
+
+            // Content in files before copying
+            Console.WriteLine("Before copy:\n");
+            file = File.ReadAllText("C:\\Users\\kumari.sanjana\\OneDrive - Entain Group\\Desktop\\hello\\testing.txt");
+            Console.WriteLine("data in first:\n" + file);
+
+            file = File.ReadAllText("C:\\Users\\kumari.sanjana\\OneDrive - Entain Group\\Desktop\\ivy training\\testing.txt");
+            Console.WriteLine("data in last :\n" + file + "\n\n\n");
+
+            // Copy file with overwriting
+            File.Copy("C:\\Users\\kumari.sanjana\\OneDrive - Entain Group\\Desktop\\hello\\testing.txt", "C:\\Users\\kumari.sanjana\\OneDrive - Entain Group\\Desktop\\ivy training\\testing.txt", true);
+
+            // Content in files after copying
+            Console.WriteLine("After copy:\n");
+            file = File.ReadAllText("C:\\Users\\kumari.sanjana\\OneDrive - Entain Group\\Desktop\\hello\\testing.txt");
+            Console.WriteLine("data in first:\n" + file);
+
+            file = File.ReadAllText("C:\\Users\\kumari.sanjana\\OneDrive - Entain Group\\Desktop\\ivy training\\testing.txt");
+            Console.WriteLine("data in last :\n" + file + "\n\n\n");
+        }
+    }
+}
+
+7)
+/*
+ Write a C# program that uses a Queue to store a list of people. Create a class called Person.cs with two 
+properties (name and age) and a ToString() method to print the result.
+
+Then define a Queue and request the information (name and age) of 5 people from the user, you will have to 
+store the information in the queue.  Finally print the result of the queue on screen. 
+ */
+
+
+using System.Collections;
+
+namespace Collection_qu7
+{
+    public class Queue_obj
+    {
+        
+        public class Person
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+
+
+            public override string ToString()
+            {
+                return Name + " - " + Age;
+            }
+        }
+
+        public static void Main(string[] args)
+        {
+            Queue list = new Queue();
+            
+
+            int total = 5;
+            for (int i = 0; i < total; i++)
+            {
+                Console.WriteLine("Enter the Name Person: ");
+                string name = Console.ReadLine();
+                Console.WriteLine("Enter the Age : ");
+                int age = int.Parse(Console.ReadLine());
+
+                list.Enqueue(new Person()
+                {
+                    Name = name,
+                    Age = age
+                });
+            }
+
+            foreach (Person p in list)
+            {
+                Console.WriteLine(p.ToString());
+            }
+
+            Console.ReadLine();
+        }
+
+    }
+
+}
+8)
+/*
+ Write a C# program to create a file with a name given by the user. Add atleast 10 lines of content to the file. 
+Get 2 inputs from the user, old word and new word and replace the old word with the new word throughout the file. 
+You can show a little bit of content to the user as hints for the old word. 
+ 
+ */
+
+
+namespace Adv_file_handling_qu8
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the file name you want : ");
+            string name = Console.ReadLine();
+            string file_Name = @"C:\Users\kumari.sanjana\OneDrive - Entain Group\Desktop\ivy training" + name + ".txt";
+            try
+            {
+                StreamWriter s_name = File.AppendText(file_Name);
+
+                s_name.WriteLine("Hello my first line is here");
+                s_name.WriteLine("It's my second line");
+                s_name.WriteLine("Here is Third Line");
+                s_name.WriteLine("Here is 4th Line added");
+                s_name.WriteLine("Here is 5th Line added");
+                s_name.WriteLine("Here is 6th Line added");
+                s_name.WriteLine("Here is 7th Line added");
+                s_name.WriteLine("Here is 8th Line added");
+                s_name.WriteLine("Here is 9th Line added");
+                s_name.WriteLine("Here is 10th Line added");
+
+                s_name.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            try
+            {
+                using (StreamReader sorc = File.OpenText(file_Name))
+                {
+                    string str = "";
+                    while ((str = sorc.ReadLine()) != null)
+                    {
+                        Console.WriteLine(str);
+                    }
+                    sorc.Close();
+                }
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.WriteLine("Enter the text you wanna replaced");
+            string OldText = Console.ReadLine();
+
+            Console.WriteLine("Enter the text you want in the file");
+            string NewText = Console.ReadLine();
+
+            string text = File.ReadAllText(file_Name);
+            text = text.Replace(OldText, NewText);
+            File.WriteAllText(file_Name, text); Console.ReadKey();
+
+        }
+    }
+}
+
+
+
+
+9)/*
+ Create a C# program to:
+Create an Employee class and add about 5 employees. Write a method to give promotion. 
+Get a value from the user as a trigger to give promotion to selected employees. Use Delegates
+ */
+
+
+namespace Delegates_qu9
+{
+    public delegate void Employee(string del_s);
+    class employees
+    {
+        public string Name;
+
+        public employees(string emp_name)
+        {
+            this.Name = emp_name;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<employees> empList = new List<employees>();
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Enter Employee Name{0}:", i);
+                string str = Console.ReadLine();
+                empList.Add(new employees(str));
+            }
+            Employee Emp = new Employee(promotion);
+            foreach (var i in empList)
+            {
+                Emp.Invoke(i.Name);
+            }
+            Console.ReadKey();
+        }
+        public static void promotion(string employ_name)
+        {
+            
+            Console.WriteLine("Did " +employ_name + "will be Promoted ? ");
+            bool prmot = Boolean.Parse(Console.ReadLine());
+
+            if (prmot == true)
+                Console.WriteLine("{0} is Promoted ", employ_name);
+            else
+                Console.WriteLine("{0} is Not Promoted ",employ_name);
+        }
+
+    }
+}
+
+10)/*
+ Create a C# program to:
+The main task is to get a stage / event ready with the following tasks:
+Flower decorations to be completed on stage.
+Chief guest to be picked up from the airport. 
+Co-ordinate with the caterers and set up the food area. 
+Arrange the gifts to be distributed in the stage after the decorations are over. 
+Start the function only when the Chief guest has arrived at the venue. 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+
+
+namespace Async_qu10
+{
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            flowerDecoration();
+            cheifGuestPicked();
+            foodArea();
+            giftArranged();
+            functionStarted();
+            Console.ReadKey();
+        }
+        static async void flowerDecoration()
+        {
+            Console.WriteLine("Flower decorations to be completed on stage");
+        }
+        static async void cheifGuestPicked()
+        {
+            Console.WriteLine("Chief guest to be picked up from the airport.");
+            await Task.Delay(5000);
+            Console.WriteLine("Chief Guest Arrived at stage");
+        }
+        static async void giftArranged()
+        {
+            await Task.Delay(4000);
+            Console.WriteLine("Arrange the gifts to be distributed in the stage ");
+        }
+        static async void functionStarted()
+        {
+            await Task.Delay(6000);
+            Console.WriteLine("Started function as Chief guest has arrived at the venue. ");
+        }
+        static async void foodArea()
+        {
+            Console.WriteLine("Food Area has been Set for guests");
+            
+        }
+       
+    }
+}
+
