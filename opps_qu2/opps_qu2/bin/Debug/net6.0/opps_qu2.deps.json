@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "opps_qu2/1.0.0": {
+        "runtime": {
+          "opps_qu2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "opps_qu2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

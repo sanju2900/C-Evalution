@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\bin\Debug\net6.0\opps_qu2.exe
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\bin\Debug\net6.0\opps_qu2.deps.json
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\bin\Debug\net6.0\opps_qu2.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\bin\Debug\net6.0\opps_qu2.dll
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\bin\Debug\net6.0\opps_qu2.pdb
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.dll
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\refint\opps_qu2.dll
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.pdb
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\opps_qu2.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\opps_qu2\opps_qu2\obj\Debug\net6.0\ref\opps_qu2.dll
