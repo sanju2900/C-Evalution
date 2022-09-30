@@ -1,0 +1,15 @@
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\bin\Debug\net6.0\Collection_qu7.exe
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\bin\Debug\net6.0\Collection_qu7.deps.json
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\bin\Debug\net6.0\Collection_qu7.runtimeconfig.json
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\bin\Debug\net6.0\Collection_qu7.dll
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\bin\Debug\net6.0\Collection_qu7.pdb
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.csproj.AssemblyReference.cache
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.AssemblyInfoInputs.cache
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.AssemblyInfo.cs
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.csproj.CoreCompileInputs.cache
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.dll
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\refint\Collection_qu7.dll
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.pdb
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\Collection_qu7.genruntimeconfig.cache
+C:\Users\kumari.sanjana\source\repos\Collection_qu7\Collection_qu7\obj\Debug\net6.0\ref\Collection_qu7.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Collection_qu7/1.0.0": {
+        "runtime": {
+          "Collection_qu7.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Collection_qu7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
